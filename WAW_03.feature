@@ -14,7 +14,7 @@ Feature:  Weather information should be available under the search box
     And And see "Add to favourite" option
     When user click on "Add to favourite" option
     And user suddenly see option "Remove from favourite"
-    Then <City Name> move to favourite
+    Then city name move to favourite
     And user suddenly see option Remove from favourite
 
   Scenario Outline: Verify temperature information can be added to favourite
