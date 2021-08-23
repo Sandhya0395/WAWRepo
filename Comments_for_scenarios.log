@@ -1,0 +1,24 @@
+Reviewd by - Sushil 
+Date- 23 August 2021
+
+General comment:
+
+- All scenarios are not formatted properly
+-------------------------------------------------------------------------
+- WAW_03.feature
+  Scenario: Verify temperature information can be added to favourite
+
+  Then <City Name> move to favourite
+
+  above step has a parameter required for scenario outline format. but this is normal scenario so you can remove less than greater than sign and if you feel this is paramter put it inside "" or else write normally.
+
+-------------------------------------------------------------------------
+WAW_04.feature
+
+ Scenario Outline: Verify weather information can be seen in detailed
+
+I am really  impressed with this scenario. Very very nicely written. Expereince person also doesn't write scenarios like this. Very good!. Good work. 
+
+
+
+All other scenarios looks Good. Well Done!
