@@ -29,7 +29,7 @@ public class WAW01_Definition {
         driver.get("https://weather-app-02.netlify.app/");
         String actual = driver.findElement(By.className("coverTitle")).getText();
         Assert.assertEquals("Reading the text from homepage", "My Weather Application\n", actual);
-
+        System.out.println("Test of website is up and running");
     }
 
     @And("website is opened in browser")
