@@ -7,14 +7,14 @@ Feature: Application should have search functionality
 
   @positive
   Scenario: Verify user can search the city to check weather information
-    Given website is opened in browser
+    Given Website is up and running
     And website is up and running
     When user enter valid city name
     And click on "Search" button or hitting enter key from keyboard
     Then user should see weather information with respective to that city
 
   Scenario Outline: Verify user can search the city to check weather information
-    Given Website is up and running
+    Given website is opened in browser
     And website is opened in browser
     When user search for <City Name> city
     And click on "Search" button or hitting enter key from keyboard
