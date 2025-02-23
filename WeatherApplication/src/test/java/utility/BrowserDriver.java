@@ -11,7 +11,8 @@ public class BrowserDriver
     public static WebDriver GetDriver()
     {
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage");
+        //options.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage");
+        
         return new ChromeDriver(options); // Return an instance of ChromeDriver (WebDriver)
     }
 }
